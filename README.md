@@ -1,6 +1,7 @@
 # Práctica 3: Área y perímetro de un rectángulo
 ## 1. Descripción del problema (Fase 1)
 <!-- Explica con tus palabras qué hace tu programa y para qué serviría en la vida real. Máximo 4 líneas. -->
+Este programa te ayudaria a sacar más facil el área y el perimetro de algun plano con las medidas que ya tenemos, ejemplo el terreno de una casa. 
 
 _____
 
@@ -8,12 +9,12 @@ _____
 <!-- Define cada entrada y cada salida, con su tipo de dato, sus unidades y su objetivo. -->
 
 **Entradas:**
-1. _____
-2. _____
+1. dos datos: lado x lado 
+2. dos datos: lado + lado + lado + lado
 
 **Salidas:**
-1. _____
-2. _____
+1. área
+2. perímetro
 
 **Fórmulas** (área y perímetro):
 _____
@@ -21,17 +22,17 @@ _____
 ## 3. Restricciones e invariante (Fase 1 y 2)
 
 **Restricciones** (¿qué debe cumplirse?):
-- _____
-- _____
+- no aceptar números negativos
+- no aceptar el 0
 
 **¿Qué hace mi programa con una medida de 0 o negativa? ¿Por qué?**
-_____
+lo rechaza, por que no puede haber una medida de 0, en ese caso de seria un rectangulo
 
 **¿Quién detecta cada error?** (¿qué revisa `leerDecimal` y qué reviso yo?)
-_____
+Ayuda a identificar si no es un número como abc, algún dato no valido, y te vuelve a pedir la info
 
 **Invariante** (al salir del ciclo que pide el ancho, ¿qué es seguro sobre `ancho`?):
-_____
+asegurarse que sea un numero valido para calcular área y perímetro
 
 ## 4. Casos resueltos a mano (Fase 1)
 
