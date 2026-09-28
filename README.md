@@ -38,16 +38,16 @@ asegurarse que sea un numero valido para calcular área y perímetro
 
 | Caso | Ancho | Alto | Área calculada a mano | Perímetro calculado a mano |
 |---|---|---|---|---|
-| 1 | _____ | _____ | _____ | _____ |
-| 2 (cuadrado) | _____ | _____ | _____ | _____ |
-| 3 (con decimales) | _____ | _____ | _____ | _____ |
+| 1 | 4 | 3 | ÁREA: 12 | PERÍMETRO: 14 |
+| 2 (cuadrado) | 5 | 5 | ÁREA: 25 | PERÍMETRO: 20 |
+| 3 (con decimales) | 2.5 | 3 | ÁREA: 7.5 | PERÍMETRO: 11 |
 
 ## 5. Receta en pseudocódigo (Fase 2)
 <!-- Tu receta va en el archivo RECETA.md. Aquí solo responde las preguntas. -->
 
-**¿Probé mi receta a mano con un caso válido y uno inválido?** Sí / No
-**¿Tuve que corregirla?** _____
-**¿Cuántas versiones de mi receta escribí hasta la final?** _____
+**¿Probé mi receta a mano con un caso válido y uno inválido?** Si 
+**¿Tuve que corregirla?** Si
+**¿Cuántas versiones de mi receta escribí hasta la final?** 2, me falto agregar que no aceptara lo números negativos
 
 ## 6. Cómo compilar y ejecutar (Fase 3)
 

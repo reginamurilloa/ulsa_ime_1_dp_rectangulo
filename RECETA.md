@@ -7,4 +7,20 @@
 ``` text
 1. MOSTRAR "Bienvenido a mi programa de rectangulo"
 
+2. PEDIR el ancho
+LEER ancho 
+MIENTRAS ancho <=0
+"valor no valido el ancho tiene que ser mayor que 0" 
+PEDIR y LEER ancho:
+
+3. PEDIR el alto
+MIENTRAS alto <=0
+"valor no valido el alto tiene que ser mayor que 0" 
+PEDIR y LEER alto:
+
+4. Calcular área= ancho * alto
+5. Calcular perímetro= 2* (ancho + alto)
+6. MOSTRAR el área y el perímetro
+
+
 ```
