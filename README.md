@@ -70,7 +70,13 @@ El perimetro del rectangulo es: 26 unidades.
 ## 8. Experimentos (Fase 3)
 
 **Experimento A: ¿qué resultado dio `2 * ancho + alto` con 5 × 3? ¿Por qué?**
-_____
+Area y perimetro de un rectangulo
+Introduce el ancho del rectangulo: 5
+Introduce el alto del rectangulo: 3
+El area del rectangulo es: 15 unidades cuadradas.
+El perimetro del rectangulo es: 13 unidades.
+
+Porque el 2 * ancho + alto, solo esta multiplicando al ancho y el alto solo lo suma 1 vez. De esta manera da un resultado incorrecto
 
 **Experimento B: sin validación, ¿qué mostró el programa con ancho -4 y alto 3? ¿Tiene sentido?**
 _____
