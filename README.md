@@ -79,56 +79,59 @@ El perimetro del rectangulo es: 13 unidades.
 Porque el 2 * ancho + alto, solo esta multiplicando al ancho y el alto solo lo suma 1 vez. De esta manera da un resultado incorrecto
 
 **Experimento B: sin validación, ¿qué mostró el programa con ancho -4 y alto 3? ¿Tiene sentido?**
-_____
+Area y perimetro de un rectangulo
+Introduce el ancho del rectangulo: -4
+El ancho debe ser mayor que 0. Intenta de nuevo.Introduce el ancho del rectangulo:
 
-**Experimento C (opcional): con `int`, ¿qué pasó con 2.5 y con 100000 × 100000?**
-_____
+Marca error ya que mi codigo no acepta números negativos
+
+
 
 ## 9. Tabla de pruebas (Fase 4)
 
 | Caso | Ancho | Alto | Esperado | Obtenido | ¿Pasó? |
 |---|---|---|---|---|---|
-| Normal | 5 | 3 | Área 15, perímetro 16 | _____ | _____ |
-| Cuadrado | 4 | 4 | Área 16, perímetro 16 | _____ | _____ |
-| Decimales | 2.5 | 4 | Área 10, perímetro 13 | _____ | _____ |
-| Muy pequeño | 0.1 | 0.1 | Área 0.01, perímetro 0.4 | _____ | _____ |
-| Ancho cero | 0 | 3 | vuelve a pedir el ancho | _____ | _____ |
-| Alto negativo | 5 | -2 | vuelve a pedir el alto | _____ | _____ |
-| Texto | `abc` | 3 | `leerDecimal` vuelve a pedir | _____ | _____ |
-| Caso propio 1 | _____ | _____ | _____ | _____ | _____ |
-| Caso propio 2 | _____ | _____ | _____ | _____ | _____ |
+| Normal | 5 | 3 | Área 15, perímetro 16 | área 15, perímetro 16 | si |
+| Cuadrado | 4 | 4 | Área 16, perímetro 16 | área 16, perímetro 16 | si |
+| Decimales | 2.5 | 4 | Área 10, perímetro 13 | área 10, perímetro 13 | si |
+| Muy pequeño | 0.1 | 0.1 | Área 0.01, perímetro 0.4 | área 0.01, perímetro 0.4 | si |
+| Ancho cero | 0 | 3 | vuelve a pedir el ancho | El ancho debe ser mayor que 0. Intenta de nuevo.| si, marco error en el codigo y te pide que ingreses otro número|
+| Alto negativo | 5 | -2 | vuelve a pedir el alto | El alto debe ser mayor que 0. Intenta de nuevo. | si, marco error en el codigo y te pide que ingreses otro número |
+| Texto | `abc` | 3 | `leerDecimal` vuelve a pedir | Entrada no valida. Escribe un numero (ej. 5 o 2.5) | si, aparece que pongas un número que sea valido |
+| Caso propio 1 | 22 | 8 | Área 176, Perímetro 60 | área 176, perímetro 60 | si |
+| Caso propio 2 | 2.3 | 0 | vuelve a pedir el alto | El alto debe ser mayor que 0. Intenta de nuevo. | si |
 
 ## 10. Bitácora de mejoras (Fase 4)
 
 | # | ¿Qué falló o qué quise mejorar? | ¿Qué cambié? | ¿Funcionó? |
 |---|---|---|---|
-| 1 | _____ | _____ | _____ |
-| 2 | _____ | _____ | _____ |
+| 1 | hacer el codigo facil para utilizar | explicaciones mas claras | si |
 
-**Reto elegido (opcional):** _____
+
 
 ## 11. Dudas para el profesor (Fase 3)
 
 | Duda | Lo que ya intenté |
 |---|---|
-| _____ | _____ |
+| ninguna |  |
 
 ## 12. Reflexión final
 
 **¿Qué aprendí con esta práctica?**
-_____
+A crear el codigo de manera más facil y guiarme de mis trabajos anteriores
 
 **Ahora que terminé, ¿qué cambiaría de mi proceso?**
-_____
+intentar no guiarme tanto de is trabajos anteriores y confiar más en mi
 
 **¿Qué fue lo más difícil y cómo lo resolví?**
-_____
+hacer el main.cpp 
+Revisando mis trabajos y haciendo pruebas de como funcionaba el codigo 
 
 **¿Qué pregunta me quedó sin responder?**
-_____
+ninguna
 
 **Diseñar la receta desde cero, ¿fue más fácil o más difícil de lo que esperaba? ¿Qué haría distinto la próxima vez?**
-_____
+Fue facil relativamente, podria más atención para hacer más rapido el codigo
 
 ## 13. Lista de verificación antes de entregar (Fase 5)
 

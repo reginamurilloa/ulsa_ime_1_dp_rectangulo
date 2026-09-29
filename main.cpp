@@ -29,7 +29,7 @@ int main() {
     }
 
     double area = ancho * alto;
-    double perimetro = 2 * ancho + alto;
+    double perimetro = 2 * (ancho + alto);
 
     std::cout << "El area del rectangulo es: " << area << " unidades cuadradas.\n";
     std::cout << "El perimetro del rectangulo es: " << perimetro << " unidades.\n";
