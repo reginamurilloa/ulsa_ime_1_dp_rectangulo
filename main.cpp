@@ -9,7 +9,31 @@ int main() {
     // 1. Variables (siempre inicializadas)
     //    TODO: ¿qué variables necesitas? ¿De qué tipo? ¿Con qué valor empiezan?
 
+    double ancho = 0.0;
+    double alto = 0.0;
+
     std::cout << "Area y perimetro de un rectangulo\n";
+
+    while (ancho <= 0) {
+        ancho = leerDecimal("Introduce el ancho del rectangulo: ");
+        if (ancho <= 0) {
+            std::cout << "El ancho debe ser mayor que 0. Intenta de nuevo.";
+        }
+    }
+
+    while (alto <= 0) {
+        alto = leerDecimal("Introduce el alto del rectangulo: ");
+        if (alto <= 0) {
+            std::cout << "El alto debe ser mayor que 0. Intenta de nuevo.";
+        }
+    }
+
+    double area = ancho * alto;
+    double perimetro = 2 * (ancho + alto);
+
+    std::cout << "El area del rectangulo es: " << area << " unidades cuadradas.\n";
+    std::cout << "El perimetro del rectangulo es: " << perimetro << " unidades.\n";
+
 
     // 2. Entrada: el ancho
     //    TODO: lee el ancho con leerDecimal("...")

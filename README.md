@@ -60,7 +60,11 @@ g++ -Wall -Wextra -std=c++17 main.cpp -o rectangulo
 <!-- Pega aquí lo que muestra tu programa en pantalla con un caso normal. -->
 
 ```
-_____
+Area y perimetro de un rectangulo
+Introduce el ancho del rectangulo: 8
+Introduce el alto del rectangulo: 5
+El area del rectangulo es: 40 unidades cuadradas.
+El perimetro del rectangulo es: 26 unidades.
 ```
 
 ## 8. Experimentos (Fase 3)
